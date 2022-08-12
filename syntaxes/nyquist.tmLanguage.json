@@ -1,0 +1,58 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Nyquist",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"comment": {
+			"begin": ";",
+			"end": "\\n",
+			"name": "comment.line.nyquist"
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.nyquist",
+					"match": "\\b(if|else|while|for|return|loop|with|begin|end|when|unless|from|to|below|downto|above)\\b"
+				},
+				{
+					"name": "storage.load.nyquist",
+					"match": "\\b(load)\\b"
+				},
+				{
+					"name": "storage.type.nyquist",
+					"match": "\\b(function|variable|set)\\b"
+				},
+				{
+					"name": "keyword.exec.nyquist",
+					"match": "\\b(print|exec|play|display|plot)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\b-?[0-9]+.?[0-9]*\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.nyquist",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.nyquist",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.sal"
+}

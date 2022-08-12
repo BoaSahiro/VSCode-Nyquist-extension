@@ -1,0 +1,25 @@
+{
+  "name": "nyquist",
+  "displayName": "Nyquist",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nyquist",
+      "aliases": ["Nyquist", "nyquist"],
+      "extensions": [".sal"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nyquist",
+      "scopeName": "source.sal",
+      "path": "./syntaxes/nyquist.tmLanguage.json"
+    }]
+  }
+}

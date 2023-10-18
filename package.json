@@ -1,8 +1,9 @@
 {
   "name": "nyquist",
   "displayName": "Nyquist",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Syntax highlighting for Nyquist",
+  "icon": "nyquist-icon.png",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -21,5 +22,11 @@
       "scopeName": "source.sal",
       "path": "./syntaxes/nyquist.tmLanguage.json"
     }]
+  },
+  "publisher": "YuxuanWu",
+  "publisherDisplayName": "Irislucent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Irislucent/Nyquist-vsce.git"
   }
 }

@@ -1,7 +1,7 @@
 # Nyquist
 
 This is the syntax highlighting extension for the Nyquist language.  
-Intented to enhance the code reading and editing experience in Nyquist.  
+Intended to enhance the code reading and editing experience in Nyquist.  
 But you'll still need to run the code in NyquistIDE. Sorry for that. 🫡
 
 Enjoy your 15-322/622 journey!

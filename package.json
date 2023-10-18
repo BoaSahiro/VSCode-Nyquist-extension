@@ -3,7 +3,7 @@
   "displayName": "Nyquist",
   "description": "Syntax highlighting for Nyquist",
   "icon": "nyquist-icon.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
